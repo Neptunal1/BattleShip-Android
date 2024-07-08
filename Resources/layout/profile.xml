@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/pprofiles"
+    android:background="@drawable/profileback"
+    android:padding="16dp">
+
+    <!-- Profile Image -->
+    <ImageView
+        android:id="@+id/timage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Take Picture"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Button to Take Picture -->
+    <Button
+        android:id="@+id/picbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take Picture"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp" />
+
+    <!-- User's Name -->
+    <TextView
+        android:paddingTop="20dp"
+        android:id="@+id/tname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="left" />
+
+    <!-- Wins and Losses -->
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/twins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wins: "
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="20dp" />
+        <TextView
+            android:id="@+id/tlosses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Losses: "
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "448486859923",
+    "project_id": "gilad-battleship",
+    "storage_bucket": "gilad-battleship.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448486859923:android:739b2319aad155d8dfd966",
+        "android_client_info": {
+          "package_name": "com.companyname.battleship"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcvImBvkmywdprtun28e6cyGWc8L8a61U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,61 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loginpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/backlog"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Submarine game"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:textSize="27sp"
+        />
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llogin"
+        android:orientation="vertical"
+        android:gravity="center">
+       <EditText
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:hint="Enter You UserName"
+        android:id="@+id/lusername"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:paddingTop="20sp"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter You password"
+        android:id="@+id/lpassword"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:paddingTop="20sp"/>
+       <Button
+            android:layout_marginTop="20sp"
+           android:layout_width="150sp"
+           android:layout_height="wrap_content"
+            android:id="@+id/login"
+            android:text="Login"
+            android:background="#71DFBF"
+            />
+        <Button
+            android:layout_marginTop="30sp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+            android:id="@+id/lsignup"
+            android:text="if you dont have an account sign up"
+            android:background="#71DFBF"
+            android:gravity="center"
+            android:textColor="#000000"
+            />
+    </LinearLayout>
+</LinearLayout>
+
